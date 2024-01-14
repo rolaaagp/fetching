@@ -13,7 +13,6 @@ export const ModalWrapper = styled.div`
   background-color: rgba(0, 0, 0, 0.5);
   transition: all 0.5s ease;
 
-  /* Add Animation */
   @-webkit-keyframes animatetop {
     from {
       top: -300px;
