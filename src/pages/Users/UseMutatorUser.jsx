@@ -45,7 +45,7 @@ export function UseMutatorUser({ handleUpdateData }) {
           {...register("name", { required: true })}
           placeholder="Category Name..."
         />
-        <Button type="submit">Guardar</Button>
+        <Button type="submit">Save</Button>
       </Form>
       {status && <h1>Status: {status}</h1>}
     </section>
